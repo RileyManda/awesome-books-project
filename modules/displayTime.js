@@ -1,11 +1,13 @@
-// Function for displaying date and time
+// import { DateTime } from '../node_modules/luxon/src/luxon.js';
+// import { DateTime } from 'luxon';
 
-export const updateTime = () => {
-  const dateTime = document.querySelector('#datetime');
-  const date = new Date().toLocaleString();
-  dateTime.innerHTML = date;
-};
+// export function displayDateTime() {
+//   const formattedDateTime = DateTime.now()
+//     .setZone('America/New_York')
+//     .minus({ weeks: 1 })
+//     .endOf('day')
+//     .toISO();
 
-export const startUpdatingTime = () => {
-  setInterval(updateTime, 1000);
-};
+//   console.log(formattedDateTime);
+// }
+// export default displayDateTime();

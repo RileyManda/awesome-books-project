@@ -1,6 +1,7 @@
 import { getBooksFromStorage, saveBooksToStorage } from './modules/storage.js';
 import addBook from './modules/addBook.js';
 import removeBook from './modules/removeBook.js';
+import { startUpdatingTime } from './modules/displayTime.js';
 
 class BookCollection {
   constructor() {
@@ -105,3 +106,6 @@ form.addEventListener('submit', (event) => {
     authorInput.value = '';
   }
 });
+
+// Function for displaying date and time
+startUpdatingTime();

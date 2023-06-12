@@ -1,8 +1,7 @@
-// import { saveBooksToStorage } from './modules/storage.js';
-// import addBook from './modules/addBook.js';
 import { startUpdatingTime } from './modules/displayTime.js';
 import BookCollection from './modules/bookCollection.js';
-import { initializeMenu, initializeForm } from './modules/menu.js';
+import initializeMenu from './modules/menu.js';
+import initializeForm from './modules/form.js';
 
 const collection = new BookCollection();
 collection.saveData();

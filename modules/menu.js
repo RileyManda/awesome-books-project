@@ -1,4 +1,4 @@
-export default function initializeMenu() {
+const initializeMenu = () => {
   const menuItems = document.querySelectorAll('.row-list li a');
   menuItems.forEach((menuItem) => {
     menuItem.addEventListener('click', (event) => {
@@ -26,4 +26,6 @@ export default function initializeMenu() {
       targetSection.classList.add('active');
     });
   });
-}
+};
+
+export default initializeMenu;

@@ -1,7 +1,7 @@
 import { saveBooksToStorage } from './storage.js';
 import addBook from './addBook.js';
 
-export default function initializeForm(collection) {
+const initializeForm = (collection) => {
   const form = document.querySelector('#add-book-section form');
   form.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -21,4 +21,6 @@ export default function initializeForm(collection) {
       authorInput.value = '';
     }
   });
-}
+};
+
+export default initializeForm;

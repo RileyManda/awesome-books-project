@@ -1,5 +1,5 @@
 // project javascript code
-import { getBooksFromStorage, saveBooksToStorage } from './storage.js';
+import { getBooksFromStorage, saveBooksToStorage } from './modules/storage.js';
 
 class BookCollection {
   constructor() {

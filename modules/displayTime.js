@@ -1,6 +1,6 @@
 import { DateTime } from '../node_modules/luxon/src/luxon.js';
 // eslint-disable-next-line quotes
-// import { DateTime } from "/luxon";
+// import { DateTime } from "luxon";
 
 // Function for updating and displaying date and time
 const updateDateTime = (dateTimeElement) => {
